@@ -1,23 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/style.css';
+import Fetch from './components/getOne';
+import FetchAll from './components/getAll';
+import Post from './components/postOne';
+import PostAll from './components/postAll';
+import Put from './components/putOne';
+import PutAll from './components/putAll';
+import Delete from './components/deleteOne';
+import DeleteAll from './components/deleteAll';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <Fetch /> */}
+        {/* <FetchAll /> */}
+        {/* <Post /> */}
+        {/* <PostAll /> */}
+        {/* <Put /> */}
+        {/* <PutAll /> */}
+        {/* <Delete /> */}
+        {/* <DeleteAll /> */}
       </header>
     </div>
   );
